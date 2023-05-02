@@ -13,7 +13,7 @@
 	--fw-bold: 700;
 	--fs-small: 0.9375rem;
 	--fs-medium: 1.0625rem;
-	--fs-large: clamp(2.75rem, 2.49rem + 1.27vw, 3.25rem);
+	--fs-large: clamp(2.75rem, 2.49rem + 1.27vw, 3.5rem);
 }
 
 html {
@@ -130,6 +130,7 @@ body {
 	font-weight: var(--fw-bold);
 	color: var(--clr-primary-600);
 	letter-spacing: -0.01rem;
+	font-size: var(--fs-medium);
 }
 
 .cards {
@@ -197,7 +198,7 @@ body {
 	}
 
 	.rating__item {
-		margin-block-end: 2.5rem;
+		margin-block-end: 2.75rem;
 		gap: 1.5rem;
 	}
 
