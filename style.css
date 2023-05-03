@@ -102,7 +102,7 @@ body {
 
 .rating__stars {
 	--star-size: 0.8rem;
-	--star-color: hsl(0 0% 100%);
+	--star-color: hsl(28 84% 88%);
 	--star-background: hsl(28 84% 61%);
 	--percent: calc(var(--rating) / 5 * 100%);
 	--spacing-between: 0.2rem;
